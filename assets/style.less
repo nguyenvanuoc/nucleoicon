@@ -1,0 +1,55 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    text-align: center;
+    h1{
+        font-size: 24px;
+
+    }
+    a{
+        text-decoration: none;
+        color: #766acf;
+    }
+}
+#icons-wrapper{
+    max-width: 1200px;
+    margin: auto;
+    
+    ul{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        p,em{
+            font-size: 12px;
+            color: #666;
+        }
+        &:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        li{
+            width: 12.5%;
+            float: left;
+            padding: 30px 10px;
+            text-align: center;
+            &:nth-child(8n+9){
+                clear: both;
+            }
+        }
+        input{
+            border: none;
+            text-align: center;
+            width: 100%;
+            font-family: "Nucleo Outline";
+        }
+    }
+    section{
+        margin-bottom:30px;
+        border-bottom: 1px solid #ddd;
+    }
+
+}
